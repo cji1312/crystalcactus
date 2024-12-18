@@ -13,4 +13,10 @@
 
 body {
   font-family: 'Arimo', sans-serif;
+  padding: 20px;
+}
+
+.links-to-sites {
+  display: flex;
+  justify-content: space-around;
 }
