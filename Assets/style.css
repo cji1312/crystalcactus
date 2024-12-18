@@ -14,6 +14,7 @@
 body {
   font-family: 'Arimo', sans-serif;
   padding: 20px;
+  background-color: #8e8d8c;
 }
 
 .links-to-sites {
@@ -26,7 +27,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #FFFFFF;
 }
 
 li {
@@ -35,7 +36,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -43,5 +44,10 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: #edebeb;
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
 }
