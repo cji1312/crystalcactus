@@ -14,7 +14,7 @@ h1 {
   display: flex;               /* Enables Flexbox on the container */
   justify-content: center;     /* Centres the logo horizontally */
   align-items: center;         /* Centres the logo vertically */
-  height: 100vh;               /* Full viewport height for vertical centering */
+  height: 80vh;               /* Full viewport height for vertical centering */
   flex-direction: column;
 }
 
