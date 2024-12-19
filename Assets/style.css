@@ -6,22 +6,23 @@
   --pink: #A53860;
 }
 
-.landing-page-logo {
+.landing-page {
   display: flex;               /* Enables Flexbox on the container */
   justify-content: center;     /* Centres the logo horizontally */
   align-items: center;         /* Centres the logo vertically */
   height: 100vh;               /* Full viewport height for vertical centering */
+  flex-direction: column;
 }
 
-.landing-page-logo img {
+.landing-page img {
   max-width: 100%;             /* Makes the logo responsive */
   height: auto;                /* Maintains the aspect ratio */
 }
 
 
-.enter-button {
+/* .enter-button {
   padding-left: 95vh;
-}
+} */
 
 .btn-btn-light {
   font-family: arimo;
