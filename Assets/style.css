@@ -1,3 +1,13 @@
+:root {
+  --blue: #222E50;
+  --green: #134611;
+  --grey: #877666;
+  --yellow: #EFEA5A;
+  --pink: #A53860;
+}
+
+
+
 .landing-page-logo {
   padding-left: 60vh;
 }
@@ -14,7 +24,7 @@
 body {
   font-family: 'Arimo', sans-serif;
   padding: 20px;
-  background-color: #8e8d8c;
+  background-color: var(--grey);
 }
 
 .links-to-sites {
@@ -27,7 +37,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #FFFFFF;
+  background-color: var(--grey);
 }
 
 li {
@@ -36,7 +46,7 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color: var(--yellow);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -44,7 +54,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #edebeb;
+  background-color: var(--grey);
 }
 
 .page-title {
