@@ -6,6 +6,10 @@
   --pink: #A53860;
 }
 
+h1 {
+  color: var(--yellow);
+}
+
 .landing-page {
   display: flex;               /* Enables Flexbox on the container */
   justify-content: center;     /* Centres the logo horizontally */
@@ -19,6 +23,11 @@
   height: auto;                /* Maintains the aspect ratio */
 }
 
+@media (max-width: 768px) {
+  .landing-page img {
+    max-width: 80%;
+  }
+}
 
 /* .enter-button {
   padding-left: 95vh;
@@ -31,7 +40,7 @@
 
 body {
   font-family: 'Arimo', sans-serif;
-  padding: 20px;
+  padding: 10px;
   background-color: var(--grey);
 }
 
