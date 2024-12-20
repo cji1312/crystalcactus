@@ -14,7 +14,7 @@ h1 {
   display: flex;               /* Enables Flexbox on the container */
   justify-content: center;     /* Centres the logo horizontally */
   align-items: center;         /* Centres the logo vertically */
-  height: 80vh;               /* Full viewport height for vertical centering */
+  height: 100vh;               /* Full viewport height for vertical centering */
   flex-direction: column;
 }
 
@@ -25,7 +25,12 @@ h1 {
 
 @media (max-width: 768px) {
   .landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 80%;
+    margin: 0 auto;
   }
 }
 
