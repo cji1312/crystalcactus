@@ -60,7 +60,7 @@ body {
   height: 50vh;
 }
 
-ul {
+/* ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -85,13 +85,13 @@ li a {
 li a:hover {
   background-color: grey;
   color: #EFEA5A;
-}
+} */
 
 .page-title {
   display: flex;
   justify-content: center;
 }
 
-.about {
+/* .about {
   padding: 30vh;
-}
+} */
