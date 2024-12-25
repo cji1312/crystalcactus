@@ -57,7 +57,7 @@ body {
 }
 
 .links-to-sites img {
-  height: 50vh;
+  height: 25vh;
 }
 
 /* ul {
@@ -90,6 +90,11 @@ li a:hover {
 .page-title {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.page-title img {
+  height: 25vh;
 }
 
 /* .about {
