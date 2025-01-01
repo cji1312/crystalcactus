@@ -47,7 +47,7 @@ h1 {
 
 body {
   font-family: 'Arimo', sans-serif;
-  background-color: grey;
+  background-color: red;
 }
 
 .links-to-sites {
@@ -100,3 +100,7 @@ li a:hover {
 /* .about {
   padding: 30vh;
 } */
+
+.ebbandflowpage {
+  background-color: black;
+}
