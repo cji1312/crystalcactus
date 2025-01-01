@@ -102,5 +102,9 @@ li a:hover {
 } */
 
 .ebbandflowpage {
-  background-color: black;
+  background: linear-gradient(to bottom, #eab3e9ff, #e47677ff); /* Gradient from top to bottom */
+  height: 100vh; /* Covers the full viewport height */
+  margin: 0;
+  font-family: bricolage grotesque;
+  color: #316a6c;
 }
