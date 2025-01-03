@@ -107,4 +107,7 @@ li a:hover {
   margin: 0;
   font-family: bricolage grotesque;
   color: #316a6c;
+  .logo {
+    height: 50vh;
+  }
 }
